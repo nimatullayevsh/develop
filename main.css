@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 219, 176);
+}
+
+.container {
+    padding: 10px 150px;
+    background-color: white;
+    width: 800px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-bottom: 2rem;
+}
+
+span {
+    color: orange;
+}
+
+.L_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.L_content h1 {
+    padding: 20px 0;
+}
+
+.L_content p {
+    padding: 20px 0;
+}
+
+.r_content {
+    position: relative;
+}
+
+.r_content img {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    width: 120px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: rgb(237, 201, 134) 5px 5px, rgb(234, 190, 110) 10px 10px, rgb(244, 166, 21) 15px 15px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 25px;
+}
+
+.list li a {
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(207, 110, 224);
+
+}
+
+
+button {
+    border: solid orange;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 30px;
+
+}
+
+section div {
+    width: 70%;
+}
+
+section {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 50px;
+}
